@@ -2,5 +2,68 @@
 url("https://fonts.googleapis.com/css?family=Oswald&amp;subset=latin-ext");
 
 body{
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/*radial-gradient - powstanie gradient */
+header{
+  background-image: radial-gradient(circle, #67d6c1, #67d1bb, #7ac5aa, #bcb7fe, #f66cd9);
+  height: 85px;
+  /*width: 100%;
+  position: fixed;*/
+}
+
+/*list-style-type - rodzaj wypunktowania, np. od kropki*/
+nav ul{
+  list-style-type: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+display: inline-block;
+position: relative;
+width: 150px
+}
+
+nav ul li:hover > ul {
+  display: block;
+  position: absolute;
+  z-index: 1;
+}
+
+nav ul li a {
+text-decoration: none;
+color: #e00986;
+line-height: 80px;
+padding 0 10px;
+display: block;
+}
+
+/*zmieniono 2s kolor na biały jak się najedzie na link */
+nav ul li a:hover {
+  color: #fff;
+  transition-duration: 2s;
+}
+
+.nav-logo{
+  width: auto;
+  float: left;
+  color: darkblue;
+  font-size: 45px;
+  margin: 0;
+  padding-left: 25px;
+  line-height: 80px;
+}
+.clear {
+  clear: both;
 }
