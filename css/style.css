@@ -67,3 +67,112 @@ nav ul li a:hover {
 .clear {
   clear: both;
 }
+
+.hero-section {
+  background-color: yellow;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.slogan {
+width: 80%;
+background: rgba(0,0,0, 0.5);
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translateX(-50%) translateY(-50%);
+}
+.slogan h2 {
+text-transform: uppercase;
+color: #FFFFFF;
+padding: 10px 20px;
+text-align: center;
+}
+.slogan h2 span {
+color: #e00986;
+}
+.yellow-text {
+font-size: 40px;
+color: #fbb619!important;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+.about-section {
+  width: 100%;
+  background-color: orange;
+}
+
+.about-section h2 {
+  margin: 0;
+  padding: 20px;
+  font-size: 30px;
+  }
+  .about-section img {
+    margin: 10px auto 30px;
+    display: block;
+  }
+.gallery-section {
+  width: 100%;
+  margin: 0 auto;
+  }
+
+  .gallery-section h2 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    color: #66b8c4;
+  }
+
+  .gallery-image {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .gallery-image img {
+    margin: 10px 10px;
+    border: 5px solid white;
+  }
+
+  .icon-section {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      margin: 40px auto;
+    }
+
+    .icon {
+      display: block;
+      width: 200px;
+      -webkit-box-shadow: 4px 4px 24px 1px rgba(102,184,196,0.75);
+      -moz-box-shadow: 4px 4px 24px 1px rgba(102,184,196,0.75);
+      box-shadow: 4px 4px 24px 1px rgba(102,184,196,0.75);
+    }
+
+    .icon i {
+      font-size: 50px;
+      color: #e00986;
+      padding: 15px;
+    }
+      .icon p {
+        font-size: 30px;
+        }
+    .icon p span {
+      font-size: 18px;
+    }
+footer {
+  background-image: radial-gradient(circle, #67d6c1, #67d1bb, #7ac5aa, #bcb7fe, #f66cd9);
+  text-align: center;
+  padding: 10px;
+  }
+  footer a {
+    text-decoration: none;
+    color: #e00986;
+  }
