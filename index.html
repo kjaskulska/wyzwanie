@@ -12,6 +12,10 @@
         <!-- dodajemy fontawesome, aby móc używać icony -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css"  href="css/style.css">
+<!-- stworzenie karuzeli - należy dodać 2 style -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+
 </head>
 <body>
   <header>
@@ -101,6 +105,13 @@
   <footer>
       <p>&#169; Strona stworzona przez <a href="#" target="_blank">KJ</a></p>
   </footer>
+<!-- dodanie biblioteki jQuery, ponieważ karuzela napisana jest w jQuery-->
+<!-- należy to dodać przed naszym glównym skryptem JS! -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</script>
+<!-- skrypt karuzeli Slick Slider -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js">
+</script>
 </body>
 
 </html>
