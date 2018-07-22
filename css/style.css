@@ -6,6 +6,7 @@ body{
   font-size: 16px;
   color: #333;
   margin: 0;
+  background-color: #e8f2f9;
 }
 
 *{
@@ -69,17 +70,17 @@ nav ul li a:hover {
 }
 
 .hero-section {
-  background-color: yellow;
+  background-image: url('https://images.unsplash.com/photo-1462392246754-28dfa2df8e6b?ixlib=rb-0.3.5&s=7576b497c9b9d27cf7ce652945e94c29&auto=format&fit=crop&w=1500&q=80');
+  background-size: cover;
   background-position: center;
-  height: 300px;
+  opacity: 0.9;
+  height: 200px;
   width: 100%;
   position: relative;
   overflow: hidden;
 }
-
 .slogan {
-width: 80%;
-background: rgba(0,0,0, 0.5);
+width: 50%;
 position: absolute;
 top: 50%;
 left: 50%;
@@ -87,7 +88,7 @@ transform: translateX(-50%) translateY(-50%);
 }
 .slogan h2 {
 text-transform: uppercase;
-color: #FFFFFF;
+color: #f4ebeb;
 padding: 10px 20px;
 text-align: center;
 }
@@ -96,11 +97,11 @@ color: #e00986;
 }
 .yellow-text {
 font-size: 40px;
-color: #fbb619!important;
+color: #f97801!important;
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 10px 20px;
 }
@@ -110,11 +111,20 @@ color: #fbb619!important;
 }
 
 .about-section h2 {
-  margin: 0;
-  padding: 20px;
+  text-align: center;
+  padding: 10px;
   font-size: 30px;
+  margin: 0;
   }
-  .about-section img {
+
+.about-section p{
+width: 95%;
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 5px;
+}
+
+.about-section img {
     margin: 10px auto 30px;
     display: block;
   }
@@ -136,9 +146,14 @@ color: #fbb619!important;
     justify-content: center;
   }
 
+
   .gallery-image img {
     margin: 10px 10px;
-    border: 5px solid white;
+    border: 8px solid orange;
+    display: flex;
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
   }
 
   .icon-section {
@@ -150,7 +165,8 @@ color: #fbb619!important;
 
     .icon {
       display: block;
-      width: 200px;
+      width: 150px;
+      background-color: white;
       -webkit-box-shadow: 4px 4px 24px 1px rgba(102,184,196,0.75);
       -moz-box-shadow: 4px 4px 24px 1px rgba(102,184,196,0.75);
       box-shadow: 4px 4px 24px 1px rgba(102,184,196,0.75);
