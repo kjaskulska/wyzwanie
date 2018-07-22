@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
+
         <!-- dzięki temu sposobowi kodowana strony można wyświetlić polskie znaki -->
     <meta charset="utf-8">
         <!-- dostosowanie strony do różnych rozdzielczości, np. duży ekran monitora, mały laptop, smartfon itp. -->
@@ -11,11 +12,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
         <!-- dodajemy fontawesome, aby móc używać icony -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css"  href="css/style.css">
-<!-- stworzenie karuzeli - należy dodać 2 style -->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+    <!-- sciągnięcie biblioteki jquery -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- stworzenie karuzeli - należy dodać 2 style przez moim plikiem CSS-->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
+    <link rel="stylesheet" type="text/css"  href="css/style.css">
 </head>
 <body>
   <header>
@@ -42,13 +45,13 @@
             <span>dream</span>.</h2> <h2>And finally, <span class="yellow-text">enjoy!</span></h2>
       </div>
   </section>
-  <section class= "slicker-section">
-        <div class= "slick-slider">
-            <img src= "https://images.unsplash.com/photo-1512577494243-76d15311b357?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=de4162f8de715b8c0c54078911118d4f&auto=format&fit=crop&w=1476&q=80" alt="pockets" title="Pockets"/>
-            <img src= "https://images.unsplash.com/photo-1490707967831-1fd9b48e40e2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=749def5b21084e6ee01beca8e6bc73a9&auto=format&fit=crop&w=1500&q=80" alt="dresses" title="Dresses"/>
-            <img src= "https://images.unsplash.com/photo-1522128311549-c47846e6ef7d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c655cf59ec441d2f97d63ae867ee30f7&auto=format&fit=crop&w=749&q=80" alt="old Singers" title="Old Singers"/>
-            <img src= "https://images.unsplash.com/photo-1459792323369-14e51bb68de0?ixlib=rb-0.3.5&s=9c7863febd9a5de620663e6ef8d3a60f&auto=format&fit=crop&w=750&q=80" alt="threads" title="Threads"/>
-            <img src= "https://images.unsplash.com/photo-1494281258937-45f28753affd?ixlib=rb-0.3.5&s=3dac8dc523f5d563b4a68655ae52ee0c&auto=format&fit=crop&w=750&q=80" alt="suits" title="Suits"/>
+  <section class="slider-section">
+        <div class="slick-slider">
+            <img src= "https://images.unsplash.com/photo-1512577494243-76d15311b357?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=de4162f8de715b8c0c54078911118d4f&auto=format&fit=crop&w=1476&q=80" alt="pockets" title="Pockets">
+            <img src= "https://images.unsplash.com/photo-1490707967831-1fd9b48e40e2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=749def5b21084e6ee01beca8e6bc73a9&auto=format&fit=crop&w=1500&q=80" alt="dresses" title="Dresses">
+            <img src= "https://images.unsplash.com/photo-1522128311549-c47846e6ef7d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c655cf59ec441d2f97d63ae867ee30f7&auto=format&fit=crop&w=749&q=80" alt="old Singers" title="Old Singers">
+            <img src= "https://images.unsplash.com/photo-1459792323369-14e51bb68de0?ixlib=rb-0.3.5&s=9c7863febd9a5de620663e6ef8d3a60f&auto=format&fit=crop&w=750&q=80" alt="threads" title="Threads">
+            <img src= "https://images.unsplash.com/photo-1494281258937-45f28753affd?ixlib=rb-0.3.5&s=3dac8dc523f5d563b4a68655ae52ee0c&auto=format&fit=crop&w=750&q=80" alt="suits" title="Suits">
         </div>
   </section>
   <section>
@@ -116,13 +119,12 @@
   </footer>
 <!-- dodanie biblioteki jQuery, ponieważ karuzela napisana jest w jQuery-->
 <!-- należy to dodać przed naszym glównym skryptem JS! -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-</script>
-<!-- skrypt karuzeli Slick Slider -->
-<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js">
-</script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
 <!-- moj plik JS -->
- <script src="js/script.js"></script>
+ <script src="js/scripts.js">
+ </script>
 </body>
 
 </html>
