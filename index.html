@@ -23,17 +23,15 @@
 <body>
   <header>
       <nav class="menu-section">
-      <h1 class="nav-logo">Love Sewing</h1>
+      <h1 class="nav-logo"><a name="Gora">Love Sewing</a></h1>
       <ul>
-          <li><a href="#">Strona główna</a></li>
-          <li><a href="#">Szycie</a></li>
-              <ul>
-                  <li><a href="#">Niezbędnik</a></li>
-                  <li><a href="#">Maszyny</a></li>
-                  <li><a href="#">Materiały</a></li>
-                  <li><a href="#">Kursy szycia</a></li>
-              </ul>
-          <li><a href="#">Kontakt</a></li>
+          <li><a href="#Gora">Strona główna</a></li>
+          <li><a href="#Szycie">Szycie</a></li>
+          <li><a href="#Niezbednik">Niezbędnik</a></li>
+          <li><a href="#Maszyny">Maszyny</a></li>
+          <li><a href="#">Materiały</a></li>
+          <li><a href="#">Kursy szycia</a></li>
+          <li><a href="#Formularz">Kontakt</a></li>
       </ul>
       </nav>
       <div ="clear"></div>
@@ -58,19 +56,35 @@
       <article class="about-section">
               <!-- ustawiamy div CONTAINER aby ta sekcja nie była rozciągnięta na całą szerokość strony;
               będzie ostylowana w CSS potem -->
+
           <div="container">
-              <h2>Szycie to moje hobby</h2><img src="img/sewing_icon.jpg"/>
+              <h2><a name="Szycie">Szycie to moje hobby</a></h2><img src="img/sewing_icon.jpg"/>
               <p>lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum </p>
               <p>Lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum </p>
               <p>Lorem ipsum lorem ipsum test lorem ipsum m test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum </p>
           </div>
+
+      </article>
+  </section>
+  <section>
+      <article class="about-section">
+              <!-- ustawiamy div CONTAINER aby ta sekcja nie była rozciągnięta na całą szerokość strony;
+              będzie ostylowana w CSS potem -->
+
+          <div="container">
+              <h2><a name="Niezbednik">Niezbędnik</a></h2><img src="img/sewing_icon.jpg"/>
+              <p>lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum </p>
+              <p>Lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum </p>
+              <p>Lorem ipsum lorem ipsum test lorem ipsum m test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum </p>
+          </div>
+
       </article>
   </section>
   <section class="gallery-section">
               <!-- ustawiamy div CONTAINER aby ta sekcja nie była rozciągnięta na całą szerokość strony;
               będzie ostylowana w CSS potem -->
           <div="container">
-              <h2 class="gallery-text">Galeria maszyn do szycia</h2>
+              <h2 class="gallery-text"><a name="Maszyny">Galeria maszyn do szycia</a></h2>
                 <figure class = "gallery-image">
                       <!-- taka sekcja jest dobra do zdjęć -->
                 <img src="img/singer.jpg" alt="Maszyna Singer"/>
@@ -102,7 +116,7 @@
         </div>
   </section>
   <!-- formularz zgłoszeniowy -->
-   <section class="contact-section container">
+   <section class="contact-section container"><a name="Formularz"></a>
          <form action="form.php" method="POST">
                <label for="name">Imię</label>
                  <input type="text" name="name" id="name">

@@ -17,8 +17,9 @@ body{
 header{
   background-image: radial-gradient(circle, #67d6c1, #67d1bb, #7ac5aa, #bcb7fe, #f66cd9);
   height: 85px;
-  /*width: 100%;
-  position: fixed;*/
+  Width: 100%;
+  position: sticky; top: 0.1px;
+  z-index: 10;
 }
 
 /*list-style-type - rodzaj wypunktowania, np. od kropki*/
