@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <!-- sciągnięcie biblioteki jquery -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
     <!-- stworzenie karuzeli - należy dodać 2 style przez moim plikiem CSS-->
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
@@ -63,11 +64,10 @@
 
           <div="container">
               <h2>Szycie to moje hobby</h2><img src="img/sewing_icon.jpg"/>
-              <p>lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum </p>
-              <a name="Niezbednik"></a><p>Lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum </p>
-              <p>Lorem ipsum lorem ipsum test lorem ipsum m test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum </p>
+              <p>Każde hobby ma swój ciekawy początek. Pierwsza praca, przeprowadzka, brak długiego, studenckich wakacji spowodowały, że nie robiłam nic ciekawego po pracy, nie planowałam wyjazdów. Przeglądając stronę z gruponami, natrafiłam na ofertę firmy Łucznik. Wiele nie namyślając się, zakupiłam podstawowy kurs szycia i kilka dni później zafascynowała mnie magia tworzenia niesamowitych przedmiotów z kawałka materiału. Trochę krzywo, ale za to niesamowita satysfkacja! Mój pierwszy worek służy mi do trzymania akcesoriów do szycia. Po jakimś czasie kupiłam używaną maszynę Łucznik Zofia 2015. Kolejny uszytek również okazał się woreczkiem, mój mąż po dziś dzień składuje w nim impregnaty do gitary.</p>
+              <a name="Niezbednik"></a><p>Tak zaczęła się moja przygoda. Nie zawsze mam czas, ale wielką radość sprawia mi uśmiech na twarzy najbliższych - przy podarowaniu bluzki mojej mamie, przerobienie długich spodni na krótkie dla męża. Nawet moje świnki morskie wylegują się całymi dniami na poduszkach :) Nie zawsze jest pięknie, nie zawsze jest równo. Mimo wszystko uszytki cieszą oko.</p>
+              <p>Zapraszam do przeczytania reszty arykułów, które są "must have" dla początkujących.</p>
           </div>
-
       </article>
   </section>
 </div>
@@ -79,7 +79,19 @@
 
           <div="container">
               <h2>Niezbędnik</h2><img src="img/sewing_icon.jpg"/>
-              <p>lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum </p>
+              <p>Dla rozpoczęcia szycia potrzebne jest kilka niezbędnych akcesoriów.</p>
+              <ul>
+                  <li><b>Maszyna</b> - pierwsza rzecz, od której powinno się rozpocząć szycie. Ze swoich doświadczeń wiem, że lepiej nie jest odkupować maszyny od innych, jeśli nową można kupić za niewiele więcej i posiada gwarancję. Jeśli nie wiesz, czy szycie to jest hobby dla Ciebie, polecam pójść nawet na krótki, podstawowy kurs szycia. W przypadku gdy posiadasz podstawowe umiejętności, istnieją w Polsce szyciokawiarnie, w których przy zakupie materiału można skorzystać z maszyn dp szycia. Niedawno powstała taka we Wrocławiu a trend wzrasta. Więcej informacji o maszynach znajdziesz <a href="#">tutaj</a>.</li>
+                  <li><b>Nici</b> - poliestrowe nici są uniwersalne, ponieważ są odpowiednie do wielu typów materiałów. Nie polecam zakupować tanich zestawów w supermarketach, ponieważ długość nici jest stosunkowo krótka i bardzo łatwo pękają. Najlepiej pójść do pasmanterii i zakupić kilka podstawowych kolorów.</li>
+                  <li><b>Igły</b> - </li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+              </ul>
               <a name="Maszyny"></a><p>Lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum </p>
               <p>Lorem ipsum lorem ipsum test lorem ipsum m test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum </p>
           </div>
@@ -161,14 +173,13 @@
   <div class="pozycjonowanie">
    <section class="contact-section container"><a name="Formularz"></a>
          <form action="form.php" method="POST">
-               <label for="name">Imię</label>
-                 <input type="text" name="name" id="name">
-               <label for="email">E-mail</label>
-                 <input type="email" name="email" id="email">
-               <label for="massage">Tekst wiadomości</label>
-                 <textarea name="massage" id="massage" rows="3" required/></textarea>
+                <h4>Formularz kontaktowy</h4>
+                 <input type="text" name="name" id="name" placeholder="Imię"><br>
+                 <input type="email" name="email" id="email" placeholder="E-mail"><br>
+                 <textarea name="massage" id="massage" rows="3" placeholder="Tekst wiadomości" required/></textarea>
                  <input type="submit" name="submit" value="Wyślij mail">
                  <input type="reset" name="submit" value="Reset">
+
        </form>
   </section>
   <footer>
@@ -181,8 +192,8 @@
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
 <!-- moj plik JS -->
- <script src="js/scripts.js">
- </script>
+ <script src="js/scripts.js"></script>
+
 </body>
 
 </html>

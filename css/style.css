@@ -26,6 +26,11 @@ header{
   position: relative; top:85px;
 }
 
+h4 {
+  color: #e00986;
+  padding-top: 5px;
+}
+
 /*list-style-type - rodzaj wypunktowania, np. od kropki*/
 nav ul{
   list-style-type: none;
@@ -111,6 +116,8 @@ color: #f97801!important;
   padding: 10px 20px;
   position: relative;
 }
+
+
 .about-section {
   width: 100%;
   background-color: orange;
@@ -128,6 +135,7 @@ width: 95%;
 margin-left: auto;
 margin-right: auto;
 padding-bottom: 5px;
+text-align: justify;
 }
 
 .about-section img {
@@ -247,9 +255,10 @@ input {
       max-width: 100px;
       height: 30px;
       font-size: 13px;
-      background: orange;
+      background: #99ccff;
       display: inline-block;
-      border: 1px solid #e00986;
+      border: 1px solid #99ccff;
+      color: #e00986;
     }
 .slider-section {
   background-image: radial-gradient(circle, #67d6c1, #67d1bb, #7ac5aa, #bcb7fe, #f66cd9);
@@ -280,7 +289,6 @@ input {
 .slick-prev:before, .slick-next:before {
   color: #e00986; font-size: 25px;
   }
-
 
 /*to są zmiany dla urządzeń dla rozdzielczości do 767px */
 @media (max-width: 767px){
