@@ -21,9 +21,9 @@
     <link rel="stylesheet" type="text/css"  href="css/style.css">
 </head>
 <body>
-  <header>
+  <header><a name="Gora"></a>
       <nav class="menu-section">
-      <h1 class="nav-logo"><a name="Gora">Love Sewing</a></h1>
+      <h1 class="nav-logo">Love Sewing</h1>
       <ul>
           <li><a href="#Gora">Strona główna</a></li>
           <li><a href="#Szycie">Szycie</a></li>
@@ -36,6 +36,8 @@
       </nav>
       <div ="clear"></div>
   </header>
+      <!-- div pozycjonowanie - aby zawartość strony była pod paskiem menu a nie od góry -->
+  <div class="pozycjonowanie">
   <section class="hero-section">
           <!-- hero to sekcja z dużym obrazkiem, ma napis itp -->
       <div class="slogan">
@@ -43,7 +45,8 @@
             <span>dream</span>.</h2> <h2>And finally, <span class="yellow-text">enjoy!</span></h2>
       </div>
   </section>
-  <section class="slider-section">
+
+  <section class="slider-section"><a name="Szycie"></a>
         <div class="slick-slider">
             <img src= "https://images.unsplash.com/photo-1512577494243-76d15311b357?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=de4162f8de715b8c0c54078911118d4f&auto=format&fit=crop&w=1476&q=80" alt="pockets" title="Pockets">
             <img src= "https://images.unsplash.com/photo-1490707967831-1fd9b48e40e2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=749def5b21084e6ee01beca8e6bc73a9&auto=format&fit=crop&w=1500&q=80" alt="dresses" title="Dresses">
@@ -52,58 +55,78 @@
             <img src= "https://images.unsplash.com/photo-1494281258937-45f28753affd?ixlib=rb-0.3.5&s=3dac8dc523f5d563b4a68655ae52ee0c&auto=format&fit=crop&w=750&q=80" alt="suits" title="Suits">
         </div>
   </section>
+
   <section>
       <article class="about-section">
               <!-- ustawiamy div CONTAINER aby ta sekcja nie była rozciągnięta na całą szerokość strony;
               będzie ostylowana w CSS potem -->
 
           <div="container">
-              <h2><a name="Szycie">Szycie to moje hobby</a></h2><img src="img/sewing_icon.jpg"/>
+              <h2>Szycie to moje hobby</h2><img src="img/sewing_icon.jpg"/>
               <p>lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum </p>
-              <p>Lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum </p>
+              <a name="Niezbednik"></a><p>Lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum </p>
               <p>Lorem ipsum lorem ipsum test lorem ipsum m test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum </p>
           </div>
 
       </article>
   </section>
+</div>
+<div class="pozycjonowanie">
   <section>
       <article class="about-section">
               <!-- ustawiamy div CONTAINER aby ta sekcja nie była rozciągnięta na całą szerokość strony;
               będzie ostylowana w CSS potem -->
 
           <div="container">
-              <h2><a name="Niezbednik">Niezbędnik</a></h2><img src="img/sewing_icon.jpg"/>
+              <h2>Niezbędnik</h2><img src="img/sewing_icon.jpg"/>
               <p>lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum </p>
-              <p>Lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum </p>
+              <a name="Maszyny"></a><p>Lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum </p>
               <p>Lorem ipsum lorem ipsum test lorem ipsum m test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum </p>
           </div>
 
       </article>
   </section>
-
+</div>
+<div class="pozycjonowanie">
   <section class="gallery-section">
               <!-- ustawiamy div CONTAINER aby ta sekcja nie była rozciągnięta na całą szerokość strony;
               będzie ostylowana w CSS potem -->
           <div="container">
-              <h2 class="gallery-text"><a name="Maszyny">Galeria maszyn do szycia</a></h2>
+              <h2 class="gallery-text">Galeria maszyn do szycia</h2>
                 <figure class = "gallery-image">
                       <!-- taka sekcja jest dobra do zdjęć -->
                 <img src="img/singer.jpg" alt="Maszyna Singer"/>
                   <img src="img/mechaniczna.jpg" alt="Maszyna mechaniczna"/>
-                  <img src="img/nici.jpg" alt="Nici"/>
+                  <img src="img/nici.jpg" alt="Nici"/><a name="Materialy"></a>
                   <img src="img/materialy.jpg" alt="Materiały"/>
                 </div>
                 </figure>
           </div>
   </section>
-
+</div>
+<div class="pozycjonowanie">
   <section>
       <article class="about-section">
               <!-- ustawiamy div CONTAINER aby ta sekcja nie była rozciągnięta na całą szerokość strony;
               będzie ostylowana w CSS potem -->
 
           <div="container">
-              <h2><a name="Materialy">Materiały</a></h2><img src="img/sewing_icon.jpg"/>
+              <h2>Materiały</h2><img src="img/sewing_icon.jpg"/>
+              <p>lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum </p>
+              <a name="Kursy"></a><p>Lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum </p>
+              <p>Lorem ipsum lorem ipsum test lorem ipsum m test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum </p>
+          </div>
+
+      </article>
+  </section>
+</div>
+<div class="pozycjonowanie">
+      <article class="about-section">
+              <!-- ustawiamy div CONTAINER aby ta sekcja nie była rozciągnięta na całą szerokość strony;
+              będzie ostylowana w CSS potem -->
+
+          <div="container">
+              <h2>Kursy szycia</h2><img src="img/sewing_icon.jpg"/>
               <p>lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum </p>
               <p>Lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum </p>
               <p>Lorem ipsum lorem ipsum test lorem ipsum m test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum </p>
@@ -111,20 +134,8 @@
 
       </article>
   </section>
-  <section>
-      <article class="about-section">
-              <!-- ustawiamy div CONTAINER aby ta sekcja nie była rozciągnięta na całą szerokość strony;
-              będzie ostylowana w CSS potem -->
-
-          <div="container">
-              <h2><a name="Kursy">Kursy szycia</a></h2><img src="img/sewing_icon.jpg"/>
-              <p>lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum </p>
-              <p>Lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum </p>
-              <p>Lorem ipsum lorem ipsum test lorem ipsum m test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum test lorem ipsum lorem ipsum </p>
-          </div>
-
-      </article>
-  </section>
+  </div>
+  <div class="pozycjonowanie">
   <section class="icon-section container">
               <!-- dwie klasy są oddzielane tylko spacją -->
               <div class="icon fb-fans">
@@ -145,7 +156,9 @@
               </div>
         </div>
   </section>
+</div>
   <!-- formularz zgłoszeniowy -->
+  <div class="pozycjonowanie">
    <section class="contact-section container"><a name="Formularz"></a>
          <form action="form.php" method="POST">
                <label for="name">Imię</label>
@@ -161,6 +174,7 @@
   <footer>
       <p>&#169; Strona stworzona przez <a href="#" target="_blank">KJ</a></p>
   </footer>
+</div>
 <!-- dodanie biblioteki jQuery, ponieważ karuzela napisana jest w jQuery-->
 <!-- należy to dodać przed naszym glównym skryptem JS! -->
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>

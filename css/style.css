@@ -18,8 +18,12 @@ header{
   background-image: radial-gradient(circle, #67d6c1, #67d1bb, #7ac5aa, #bcb7fe, #f66cd9);
   height: 85px;
   Width: 100%;
-  position: sticky; top: 0.1px;
+  position: fixed;
   z-index: 10;
+}
+
+.pozycjonowanie{
+  position: relative; top:85px;
 }
 
 /*list-style-type - rodzaj wypunktowania, np. od kropki*/
@@ -105,6 +109,7 @@ color: #f97801!important;
   max-width: 800px;
   margin: 0 auto;
   padding: 10px 20px;
+  position: relative;
 }
 .about-section {
   width: 100%;
